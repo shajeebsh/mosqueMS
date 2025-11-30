@@ -19,3 +19,5 @@ except ImportError:
 
 # Module feature toggles
 ENABLE_CORE_MODULE = True
+
+INSTALLED_APPS += ["apps.members"]
