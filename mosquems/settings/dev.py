@@ -16,3 +16,6 @@ try:
     from .local import *
 except ImportError:
     pass
+
+# Module feature toggles
+ENABLE_CORE_MODULE = True
