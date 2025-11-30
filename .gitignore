@@ -16,4 +16,8 @@ db.sqlite3
 local_settings.py
 .env
 /static/
-/media/
+/media/source/ # or whatever the venv folder is called
+.venv/
+__pycache__/
+*.pyc
+.venv
